@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
 import Cart from './pages/Cart';
 import Sign from './pages/Sign';
+import Blog from './pages/Blog';
 import Navigation from './pages/Navigation';
 
 function App(this: string) {
@@ -15,6 +16,7 @@ function App(this: string) {
           <Route path="/" component={Home} exact />
           <Route path="/cart" component={Cart} />
           <Route path="/sign" component={Sign} />
+          <Route path="/blog" component={Blog} />
         </Switch>
       </div>
     </BrowserRouter>
