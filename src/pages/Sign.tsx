@@ -1,14 +1,6 @@
 import React, { Component } from 'react';
 //import { render } from 'react-dom';
 
-export interface data {
-  id: number;
-  name: string;
-  price: number;
-  category: string;
-  count: any;
-}
-
 // function Sign(this: string) {
 //     // const [state, setState] = useState([]);
 //

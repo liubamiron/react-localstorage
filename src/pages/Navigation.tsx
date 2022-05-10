@@ -14,6 +14,9 @@ const Navigation = () => {
       <NavLink to="/sign" style={{ color: 'blue', padding: '10px' }}>
         Sign In
       </NavLink>
+        <NavLink to="/blog" style={{ color: 'black' }}>
+            Blog
+        </NavLink>
     </div>
   );
 };
